@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   # users/1
   # users/2
 
-  get '/users/:id', to: 'users#show', as: "user"
+  get '/users/:id', to: 'users#show', as:"users"
 end
