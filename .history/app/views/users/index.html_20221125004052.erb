@@ -1,0 +1,6 @@
+<h1>ユーザー情報</h1>
+
+<% @user.each do |user| %>
+<a>
+  <%= link_to user.name, user_path(id: user.id) %><br>
+<%= end %>才
